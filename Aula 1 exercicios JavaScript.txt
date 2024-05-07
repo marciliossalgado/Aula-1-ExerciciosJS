@@ -1,0 +1,58 @@
+01-var name = prompt('Qual o seu nome?')
+
+console.log (`Olá ${name}, prazer em te conhecer!`)
+-----------------------------------------------------
+02-
+let  n1 = Number (prompt('Quais os numeros você deseja somar?'))
+ let n2 = Number (prompt('Quais os numeros você deseja somar?'))
+
+console.log(`A soma dos numeros é`, n1 + n2)
+---------------------------------------------------------------
+03-
+let  n1 = Number (prompt('Qual  sua idade?'))
+ 
+
+
+console.log(`Você nasceu no ano de: `,2024 - n1) 
+---------------------------------------------------
+04-
+let  raio = Number (prompt('Qual  o ráio do circulo que deseja calcular?'))
+ let pi= 3.14
+ let r2 = raio**2
+ let area = r2 * pi
+console.log(`A área é : ${area}`)  
+----------------------------------------
+05-
+let  dolar= Number (prompt('Quanto deseja converter?'))
+ let libra= 0.85
+ let  ouro= dolar / libra
+ let ar = ouro.toFixed(2)
+ 
+console.log ( ` o Valor convertido em libra é: ${ar}`)
+-------------------------------------------------
+06-
+let  preco= Number (prompt('Qual o valor do produto'))
+ let desconto= preco * 10 / 100
+
+ let npreco = preco - desconto 
+
+ 
+ 
+console.log ( ` o Valor com desconto é: ${npreco}`)
+
+---------------------------------------------------
+07-
+var metro= Number (prompt('Qual o valor em M² que deseja converter em Cm?'))
+var cent = metro * 100
+console.log(` ${metro} convertirdo para Cm fica: ${cent} CM`)
+
+-------------------------------------------------------------------------------------
+desafio
+  let salario = Number(prompt("Qual seu salário Bruto?"))
+  let binss = 0.08
+  let inss = salario * binss
+  let ir= salario * 0.11
+  let empresa_desconto_va_vt = salario * 0.05
+  let liquido = salario - inss - empresa_desconto_va_vt 
+     
+    console.log(` O seu salário Bruto é :R$ ${salario}:   Deduções: Inss:R$${inss}   Imposto de Renda: ${ir} Desconto do Sindicato:R$ ${empresa_desconto_va_vt} Salário Líquido:R$ ${liquido}`)
